@@ -10,5 +10,5 @@ class GameTest(unittest.TestCase):
     def test_of_sleep(self)
         dude.sleep()
                 self.assertTrue(dude.energy==100)
-if __name__ == 'dude':
+if __name__ == '__main__':
     unittest.main()
