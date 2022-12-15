@@ -109,9 +109,10 @@ while True:
         dude.fight()
         if death==1:
             print('Пацан к успеху шел. Не получилось, не фартануло. Вы умерли, видать, сильно поколотили. Начните заново')
-            time.sleep(1)
+            time.sleep(0.5)
+            name= input('Введите имя пацанчика: ')
+            dude=Dude(name)
             death=0
-            break
     elif a == '4':
         dude.eat()
     elif a=='5':
